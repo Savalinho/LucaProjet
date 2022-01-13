@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<index>
+<div class="container">
+	<div class="row">
+		<div class="frame">
+			<div class="frame-title">
+				<h1>{{ 'Presentation'|trans }}</h1>
+			</div>
+
+    <ul>
+        Je vous souhaite la bienvenue sur mon site.</br>
+        Je m'appelle Tenea Luca,j'ai 20 ans, et je suis un élève à l'IUT de Roanne en BUT Réseaux et Télécommunications.</br>
+        Sur ce site vous aller trouver différentes informations me concernant, comme mon CV, mon portofolio et autre.
+    </ul>
+    <div class="pied-index" align="center">
+            <button><a href="/About">A Propos</a></button>
+        </div>
+</div>
+{% endblock %}
